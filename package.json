@@ -1,0 +1,44 @@
+{
+  "name": "soulmate-connect",
+  "version": "1.0.0",
+  "description": "Revolutionary AI-powered dating app for deep compatibility matching",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "npm run build:client",
+    "build:client": "cd client && npm run build",
+    "install:all": "npm install && cd client && npm install"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "express-rate-limit": "^6.8.1",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.32.5",
+    "node-cron": "^3.0.2",
+    "stripe": "^12.18.0",
+    "twilio": "^4.15.0",
+    "openai": "^3.3.0",
+    "uuid": "^9.0.0",
+    "validator": "^13.11.0",
+    "compression": "^1.7.4",
+    "morgan": "^1.10.0",
+    "dotenv": "^16.3.1",
+    "socket.io": "^4.7.2",
+    "face-api.js": "^0.22.2",
+    "ml-matrix": "^6.10.7",
+    "natural": "^6.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.6.2"
+  },
+  "license": "PROPRIETARY",
+  "copyright": "© 2025 SoulMate Connect. All rights reserved. Unauthorized copying prohibited.",
+  "private": true
+}
